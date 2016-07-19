@@ -8,11 +8,11 @@ var count = {
 
 //View
 function renderCount() {
-	$('h2').html("");
+	$('#myCount').html("");
 	var source = $('#count-template').html();
 	var template = Handlebars.compile(source);
 	var renderedTemplate = template(count);
-	$('body').append(renderedTemplate);
+	$('h1').after(renderedTemplate);
 }
 
 //Controller
@@ -41,7 +41,7 @@ function decrement(){
 
 function resetCount(){
 	count.number = 0;
-	updateCount();
+	updateCount()
 	renderCount();
 }
 

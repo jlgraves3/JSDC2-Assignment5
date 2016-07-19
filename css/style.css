@@ -1,0 +1,27 @@
+body {
+	font-family: helvetica;
+	margin: 20px;
+}
+
+h1 {
+	font-size: 44px;
+}
+
+button {
+	font-size: 14px;
+}
+
+.blue {
+	color: blue;
+}
+.red {
+	color: red;
+}
+.black {
+	color: black;
+}
+
+#myCount {
+	font-size: 80px;
+	margin: 30px;
+}
